@@ -1,26 +1,37 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Move from './Game/Move';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { ProgressBar } from 'react-bootstrap';
+import { IMove } from './Interfaces/IMoves';
+import { moveSyntheticComments } from 'typescript';
+import GameScreen from './Components/GameScreen';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+interface IProps {
+
 }
+
+interface IState {
+}
+
+class App extends React.Component<IProps, IState> {
+  constructor(props: any) {
+    super(props)
+
+    this.state = {
+      
+    }
+  }
+
+
+  render() {
+    return (
+      <GameScreen/>
+    );
+  }
+}
+
+
 
 export default App;

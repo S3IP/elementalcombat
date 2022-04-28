@@ -1,0 +1,48 @@
+/* .MoveButtons{
+    position: absolute;
+    top: 85%;
+    width: 20%;
+    height: 100px;
+  } */
+  
+  /* .CustomButton{
+    left: 4%;
+  }
+  
+  .CustomButton1{
+    left: 28%;
+  }
+  
+  .CustomButton2{
+    left: 52%;
+  }
+  
+  .CustomButton3{
+    left: 76%;
+  } */
+
+  .MoveButtons .name{
+      position: absolute;
+      top: 25%;
+      left: 40%;
+  }
+
+  .MoveButtons .damage{
+    position: absolute;
+    top: 50%;
+    left: 2%;
+}
+
+.MoveButtons .speed{
+    position: absolute;
+    top: 50%;
+    left: 35%;
+}
+
+.MoveButtons .accuracy{
+    position: absolute;
+    top: 50%;
+    left: 62%;
+}
+
+  

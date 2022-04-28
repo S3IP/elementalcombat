@@ -1,0 +1,30 @@
+.App {
+  
+    text-align: center;
+    
+  }
+  
+  /* body{
+    overflow-y: hidden !important; 
+    overflow-x: hidden !important; 
+    background-image: url('https://cdnb.artstation.com/p/assets/images/images/025/031/659/large/mathieu-chauderlot-room-0010-layer-18.jpg?1584370523');
+    background-size: 100%;
+  } */
+  
+.MoveButtons{
+  padding-top: 20px;
+}
+
+  .HealthbarP1{
+    position: relative;
+    top: 2000% !important;
+    width: 20% !important;
+    left: 20%;
+  }
+  .HealthbarP2{
+    position: relative;
+    top: 2000% !important;
+    width: 20% !important;
+    left: 58%;
+  }
+  
