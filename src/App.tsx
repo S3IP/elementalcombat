@@ -1,35 +1,34 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import Move from './Game/Move';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { ProgressBar } from 'react-bootstrap';
-import { IMove } from './Interfaces/IMoves';
-import { moveSyntheticComments } from 'typescript';
 import GameScreen from './Components/GameScreen';
+import LoginButton from './Components/LoginButton';
+import LogoutButton from './Components/LogoutButton';
+import Profile from './Components/Profile';
+import Navbar from './Components/Navbar';
+import { useAuth0 } from "@auth0/auth0-react";
+import Loading from './Components/Loading'
 
-interface IProps {
 
-}
 
-interface IState {
-}
+const App = () => {
 
-class App extends React.Component<IProps, IState> {
-  constructor(props: any) {
-    super(props)
+  const { isLoading } = useAuth0();
 
-    this.state = {
-      
-    }
+  if (isLoading) {
+    return (<Loading />)
   }
 
+  return (
+    <div>
+      <Navbar />
 
-  render() {
-    return (
-      <GameScreen/>
-    );
-  }
+      {/* <Profile /> */}
+      <GameScreen />
+    </div>
+
+  );
+
 }
 
 

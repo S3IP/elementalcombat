@@ -2,7 +2,7 @@ import React from "react";
 import { Col, Container, ProgressBar, Row } from "react-bootstrap";
 import Move from "../Game/Move";
 import { IMove } from "../Interfaces/IMoves";
-import './GameScreen.css';
+import '../Css/GameScreen.css';
 
 interface IProps {
 
