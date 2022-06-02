@@ -22,9 +22,11 @@ const App = () => {
   return (
     <div>
       <Navbar />
+      <div>
+        <Profile />
+        <GameScreen />
+      </div>
 
-      {/* <Profile /> */}
-      <GameScreen />
     </div>
 
   );

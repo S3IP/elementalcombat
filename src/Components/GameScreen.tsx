@@ -48,13 +48,6 @@ class GameScreen extends React.Component<IProps, IState> {
         return (
             <div className="App">
                 <div>
-                    <ProgressBar now={100} className='HealthbarP1' />
-                    <ProgressBar now={100} className='HealthbarP2' />
-                </div>
-                <div>
-                    {JSON.stringify(this.state.moves)}
-                </div>
-                <div>
                     <Container>
                         <Row >
                             {this.state.moves.map((move, i) => {
@@ -65,12 +58,7 @@ class GameScreen extends React.Component<IProps, IState> {
                             })}
                         </Row>
                     </Container>
-
                 </div>
-                <div>
-                    <button onClick={() => console.log(this.state.moves)}>heeey </button>
-                </div>
-
             </div>
         );
     }
