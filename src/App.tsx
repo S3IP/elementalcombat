@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import GameScreen from './Components/GameScreen';
+import GameScreen from './Components/AllMoveButtons';
 import LoginButton from './Components/LoginButton';
 import LogoutButton from './Components/LogoutButton';
 import Profile from './Components/Profile';
@@ -24,7 +24,7 @@ const App = () => {
       <Navbar />
       <div>
         <Profile />
-        <GameScreen />
+        <GameScreen moves={[]} Dataisloaded={false} />
       </div>
 
     </div>
