@@ -1,4 +1,4 @@
-export type IMove = {
+export interface IMove {
     id: number,
     name: string,
     damage: number,

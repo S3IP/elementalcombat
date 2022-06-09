@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Col, Container, ProgressBar, Row } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 import Move from "../Game/Move";
 import { IMove } from "../Interfaces/IMoves";
 import '../Css/GameScreen.css';
