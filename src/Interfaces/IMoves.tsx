@@ -3,5 +3,6 @@ export type IMove = {
     name: string,
     damage: number,
     speed: number,
-    accuracy: number
+    accuracy: number,
+    moveType: string
 }
