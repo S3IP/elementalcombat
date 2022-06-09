@@ -1,6 +1,6 @@
 import LoginButton from './LoginButton';
 import LogoutButton from './LogoutButton';
-import { Nav, Navbar } from "react-bootstrap";
+import { Nav } from "react-bootstrap";
 import { useAuth0 } from '@auth0/auth0-react';
 
 
