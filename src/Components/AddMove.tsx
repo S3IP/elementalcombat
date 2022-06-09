@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import { Button, Col, Container, Row } from 'react-bootstrap';
+import { Button, Col, Container } from 'react-bootstrap';
 
 function AddMove() {
 
-    const [word, setWord] = useState("");
+    const [, setWord] = useState("");
 
     const GetInputValue = (event: React.ChangeEvent<HTMLInputElement>) => {
         setWord(event.target.value)}
