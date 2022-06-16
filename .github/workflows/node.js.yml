@@ -36,9 +36,9 @@ jobs:
     - name: Docker Build & Push Action
       uses: mr-smithers-excellent/docker-build-push@v5.6
       with:
-        image: crossychainsaw/reverse-hangman-online-frontend
+        image: timsel/elementalcombat
         tags: latest
         registry: docker.io
         dockerfile: Dockerfile
-        username: ${{ secrets.DOCKER_USERNAME }}
-        password: ${{ secrets.DOCKER_PASSWORD }}
+        username: ${{ secrets.DOCKERHUB_USERNAME }}
+        password: ${{ secrets.DOCKERHUB_PASSWORD }}
