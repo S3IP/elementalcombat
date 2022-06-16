@@ -26,10 +26,6 @@ class Move extends React.Component<IProps, IState> {
   render() {
     return (
       <div>
-        <h1>
-          
-        </h1>
-      
       <Col>
         <Button>
           <Row>

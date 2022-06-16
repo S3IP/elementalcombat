@@ -7,5 +7,13 @@ describe("renders the page", () => {
     })
 })
 
+describe("mock login process", () => {
+    it("logs in correctly", () => {
+        cy.get(".justify-contend-end > .btn").click();
+        
+    })
+})
+
+//
 //test@gmail.com
 //Testing1

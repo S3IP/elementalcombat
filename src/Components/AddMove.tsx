@@ -22,7 +22,7 @@ function AddMove() {
                 <p>Accuracy of the move</p>
                 <input type="text" onChange={GetInputValue}/>
                 </Col>
-                <Button >yaaaaaaaaas</Button>
+                <Button >add</Button>
         </Container>
 
     );
