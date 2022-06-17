@@ -21,7 +21,7 @@ export default function GameScreen() {
             <div>
                 <Container>
                     <Row >
-                        {Moves.map((move, i) => {
+                        {Moves.map((move) => {
                             console.log(Moves);
                             console.log(move.moveType);
                             return <Col className="MoveButtons" xs={3}>

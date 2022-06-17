@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Button, Col, Container } from 'react-bootstrap';
+import { Button, Col, Container} from 'react-bootstrap';
 
 function AddMove() {
 
@@ -22,7 +22,7 @@ function AddMove() {
                 <p>Accuracy of the move</p>
                 <input type="text" onChange={GetInputValue}/>
                 </Col>
-                <Button >yaaaaaaaaas</Button>
+                <Button >add</Button>
         </Container>
 
     );
