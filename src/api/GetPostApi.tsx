@@ -12,7 +12,7 @@
 // }
 
 export const GetAllMoves = async () => {
-    const data = await fetch('https://localhost:5001/api/Move');
+    const data = await fetch('http://localhost:5001/api/Move');
     const json = await data.json();
     return json;
 };
